@@ -1,0 +1,34 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+header nav ul {
+display: flex;
+list-style-type: none;
+gap: 10px;
+}
+header{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+}
+.telefon{
+    display: flex;
+    gap: 10px;
+}
+.ull li a{
+text-decoration: none;
+color: gray
+}
+.ull li a:hover{
+color: aqua;
+}
+button:hover{
+cursor: pointer;
+background-color: red;
+color: white;
+}
+button :hover {
+    background-color: orangered;
+}
